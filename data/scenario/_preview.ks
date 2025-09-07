@@ -1,0 +1,13 @@
+[_tb_system_call storage=system/_preview.ks ]
+
+[mask time=10]
+[bg  time="10"  method="crossfade"  storage="街道.png"  ]
+[tb_show_message_window] 
+[chara_mod  name="花知晚"  time="10"  cross="false"  storage="chara/1/花平日小.png"  ]
+[mask_off time=10]
+[bg  time="0"  method="crossfade"  storage="BADEND.jpg"  ]
+[tb_ptext_show  x="200"  y="272"  size="40"  color="0xffffff"  time="2000"  text="中場&nbsp;&nbsp;&nbsp;完"  face="Georgia"  anim="false"  edge="undefined"  shadow="undefined"  ]
+[tb_ptext_hide  time="1000"  ]
+[bg  time="1000"  method="crossfade"  storage="結尾4.jpg"  ]
+[jump  storage="title_screen.ks"  target="*title"  ]
+[s  ]
