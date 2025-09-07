@@ -1,0 +1,6 @@
+[preload  storage="./data/bgimage/BADEND.jpg"  ]
+[preload  storage="./data/bgimage/街道.png"  ]
+[preload  storage="./data/fgimage/chara/1/花難過小.png"  ]
+[preload  storage="./data/fgimage/chara/1/花平日小.png"  ]
+[preload  storage="./data/bgimage/結尾4.jpg"  ]
+[return]
